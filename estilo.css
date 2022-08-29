@@ -113,6 +113,7 @@ img{
 	background-color: rgba(0,0,0,0.9);
 	top: 0;
 	left: 0;
+    z-index: 1000;
 }
 .btn-close{
 	font-size: 3em;
@@ -252,10 +253,10 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.newsletter h2{
+.newsletter h2, span, p{
 	font-size: 1.5em;
 	color: #fff;
-	font-height: 700;
+	font-weight: 700;
 }
 .newsletter h3{
 	color: #fff;
@@ -275,11 +276,14 @@ img{
 }
 .newsletter button{
 	width: 100%;
-	color: #130400;
+	color: #ffffff;
 	padding: 5%;
 	border-radius: 5px;
 	cursor: pointer;
 	margin-top: 2%;
+    background-color: #6ec1e4;
+    transition: background-color 0.2s, color 0.2s;
+    box-shadow: 4px 0px 15px #6ec1e4;
 }
 /* FOOTER */
 .rodape{
@@ -410,6 +414,10 @@ a .fa-envelope:hover{
         padding: 2%;
         float: right;
         margin-top: 0;
+        color:#ffffff;
+        background-color: #6ec1e4;
+        transition: background-color 0.2s, color 0.2s;
+        box-shadow: 4px 0px 15px #6ec1e4;
     }
 }
 
