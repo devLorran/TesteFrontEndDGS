@@ -253,10 +253,13 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.newsletter h2, span, p{
+.newsletter h2, span{
 	font-size: 1.5em;
 	color: #fff;
 	font-weight: 700;
+}
+.contatoEmail{
+    color:#ffffff;
 }
 .newsletter h3{
 	color: #fff;
